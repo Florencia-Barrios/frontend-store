@@ -94,7 +94,7 @@ h3 {
   padding: 1rem 0;
   display: flex;
   justify-content: center;
-  gap: 2rem; /* Separacion forma nueva **/
+  gap: 2rem;
 }
 
 .navegacion__enlace {
@@ -231,7 +231,6 @@ h3 {
 
 .formulario__campo {
   border: 1rem solid var(--primarioOscuro);
-  /* O podría ser por separado: border-color: var(--primarioOscuro); / border-width: 1rem; / border-style: solid; */
   background-color: transparent;
   color: var(--blanco);
   font-size: 2rem;
